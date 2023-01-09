@@ -37,5 +37,55 @@ namespace MyApp.Controllers
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }
+        
+        public IActionResult Edit(int id)
+        {
+            var contact = _context.Contacts.Find(id);
+
+            if (contact == null)  return NotFound();
+            return View(contact);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(Contact contact)
+        {
+            var getContact = _context.Contacts.Find(contact.Id);
+
+            getContact.Name = contact.Name;
+            getContact.PhoneNumber = contact.PhoneNumber;
+            getContact.Active = contact.Active;
+
+            _context.Contacts.Update(getContact);
+            _context.SaveChanges();
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        public IActionResult Details(int id)
+        {
+            var contact = _context.Contacts.Find(id);
+
+            if (contact == null)  return NotFound();
+            return View(contact);
+        }
+
+        public IActionResult Delete(int id)
+        {
+            var contact = _context.Contacts.Find(id);
+
+            if (contact == null)  return NotFound();
+            return View(contact);
+        }
+
+        [HttpPost]
+        public IActionResult Delete(Contact contact)
+        {
+            var getContact = _context.Contacts.Find(contact.Id);
+
+            _context.Contacts.Remove(getContact);
+            _context.SaveChanges();
+
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

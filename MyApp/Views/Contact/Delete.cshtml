@@ -1,0 +1,36 @@
+@model MyApp.Models.Contact
+
+@{
+    ViewData["title"] = "Delete Contact";
+}
+
+<h2>Delete Contact?</h2>
+<hr/>
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(x => x.Name)
+        </dt>
+        <dt class="col-sm-10">
+            @Html.DisplayFor(x => x.Name)
+        </dt>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(x => x.PhoneNumber)
+        </dt>
+        <dt class="col-sm-10">
+            @Html.DisplayFor(x => x.PhoneNumber)
+        </dt>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(x => x.Active)
+        </dt>
+        <dt class="col-sm-10">
+            @Html.DisplayFor(x => x.Active)
+        </dt>
+    </dl>
+</div>
+<form asp-action="Delete">
+    <input type="submit" value="Delete" class="btn btn-danger" />
+</form>
+<a asp-action="Index">Back</a>
