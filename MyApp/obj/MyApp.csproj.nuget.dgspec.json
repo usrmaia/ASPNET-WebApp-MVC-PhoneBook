@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\georg\\OneDrive\\Documentos\\GitHub\\MVC-ASPNET\\MyApp\\MyApp.csproj": {}
+    "C:\\Users\\georg\\Documentos\\GitHub\\ASPNET-WebApp-MVC-PhoneBook\\MyApp\\MyApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\georg\\OneDrive\\Documentos\\GitHub\\MVC-ASPNET\\MyApp\\MyApp.csproj": {
+    "C:\\Users\\georg\\Documentos\\GitHub\\ASPNET-WebApp-MVC-PhoneBook\\MyApp\\MyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\georg\\OneDrive\\Documentos\\GitHub\\MVC-ASPNET\\MyApp\\MyApp.csproj",
+        "projectUniqueName": "C:\\Users\\georg\\Documentos\\GitHub\\ASPNET-WebApp-MVC-PhoneBook\\MyApp\\MyApp.csproj",
         "projectName": "MyApp",
-        "projectPath": "C:\\Users\\georg\\OneDrive\\Documentos\\GitHub\\MVC-ASPNET\\MyApp\\MyApp.csproj",
+        "projectPath": "C:\\Users\\georg\\Documentos\\GitHub\\ASPNET-WebApp-MVC-PhoneBook\\MyApp\\MyApp.csproj",
         "packagesPath": "C:\\Users\\georg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\georg\\OneDrive\\Documentos\\GitHub\\MVC-ASPNET\\MyApp\\obj\\",
+        "outputPath": "C:\\Users\\georg\\Documentos\\GitHub\\ASPNET-WebApp-MVC-PhoneBook\\MyApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\georg\\AppData\\Roaming\\NuGet\\NuGet.Config"

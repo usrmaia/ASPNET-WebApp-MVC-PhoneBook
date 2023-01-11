@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gjTxTqmntkmTY4odPBdYAVEe7e3ycedvi0uN3Nw7UGFqzmEfOpAkrxNXBpuRy4nd7L6bnm9U9AqvMUWZoI+m7w==",
+  "dgSpecHash": "ClCB4Kw0rK++gfFWoDzT+jCAoOcCdl73qlUKjeOKEK9LovNxm0bbx1j8D2FYLiT+VLgCL30+mKDpAhnN1n62bQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\georg\\OneDrive\\Documentos\\GitHub\\MVC-ASPNET\\MyApp\\MyApp.csproj",
+  "projectFilePath": "C:\\Users\\georg\\Documentos\\GitHub\\ASPNET-WebApp-MVC-PhoneBook\\MyApp\\MyApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\georg\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\georg\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
